@@ -3,6 +3,71 @@
 This changelog covers the public Stagehand TypeScript and Python SDKs. Entries before 4.0.0
 describe the TypeScript SDK.
 
+## TypeScript SDK 4.2.2
+
+### Patch Changes
+
+- [#3229](https://github.com/browserbase/stagehand/pull/3229) [`c6b6f27`](https://github.com/browserbase/stagehand/commit/c6b6f278c880d2f8b770ac0c1ecc63f248515968) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - skip caching for request bodies larger than 25 MB.
+
+- [#3198](https://github.com/browserbase/stagehand/pull/3198) [`10418f9`](https://github.com/browserbase/stagehand/commit/10418f98831285b3cddca5328c8013a94f22672a) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - enable WebMCP by default for local chromium versions newer than 157
+
+- [#3210](https://github.com/browserbase/stagehand/pull/3210) [`1c40ba7`](https://github.com/browserbase/stagehand/commit/1c40ba71763ddda759cf7f9c9fc582a360a33ef7) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Require client transport for Browserbase Model Gateway and cache requests.
+
+- [#3209](https://github.com/browserbase/stagehand/pull/3209) [`17de6ea`](https://github.com/browserbase/stagehand/commit/17de6eaac21dc2a35a083c9c6d9f17deb84ef6f3) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Route Browserbase Model Gateway and cache requests through the connected SDK.
+
+## Python SDK 4.2.2
+
+### Patch Changes
+
+- [#3229](https://github.com/browserbase/stagehand/pull/3229) [`c6b6f27`](https://github.com/browserbase/stagehand/commit/c6b6f278c880d2f8b770ac0c1ecc63f248515968) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - skip caching for request bodies larger than 25 MB.
+
+- [#3198](https://github.com/browserbase/stagehand/pull/3198) [`10418f9`](https://github.com/browserbase/stagehand/commit/10418f98831285b3cddca5328c8013a94f22672a) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - enable WebMCP by default for local chromium versions newer than 157
+
+- [#3210](https://github.com/browserbase/stagehand/pull/3210) [`1c40ba7`](https://github.com/browserbase/stagehand/commit/1c40ba71763ddda759cf7f9c9fc582a360a33ef7) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Require client transport for Browserbase Model Gateway and cache requests.
+
+- [#3209](https://github.com/browserbase/stagehand/pull/3209) [`17de6ea`](https://github.com/browserbase/stagehand/commit/17de6eaac21dc2a35a083c9c6d9f17deb84ef6f3) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Route Browserbase Model Gateway and cache requests through the connected SDK.
+
+## Extension Runtime 1.2.0
+
+### Minor Changes
+
+- [#3208](https://github.com/browserbase/stagehand/pull/3208) [`4a7c637`](https://github.com/browserbase/stagehand/commit/4a7c637dbb3de17be4e0b70987a69db8d3521b98) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Support routing Browserbase Model Gateway and cache requests through the connected SDK.
+
+### Patch Changes
+
+- [#3229](https://github.com/browserbase/stagehand/pull/3229) [`c6b6f27`](https://github.com/browserbase/stagehand/commit/c6b6f278c880d2f8b770ac0c1ecc63f248515968) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - skip caching for request bodies larger than 25 MB.
+
+- [#3210](https://github.com/browserbase/stagehand/pull/3210) [`1c40ba7`](https://github.com/browserbase/stagehand/commit/1c40ba71763ddda759cf7f9c9fc582a360a33ef7) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Require client transport for Browserbase Model Gateway and cache requests.
+
+## Go SDK 4.2.2
+
+### Patch Changes
+
+- [#3229](https://github.com/browserbase/stagehand/pull/3229) [`c6b6f27`](https://github.com/browserbase/stagehand/commit/c6b6f278c880d2f8b770ac0c1ecc63f248515968) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - skip caching for request bodies larger than 25 MB.
+
+- [#3198](https://github.com/browserbase/stagehand/pull/3198) [`10418f9`](https://github.com/browserbase/stagehand/commit/10418f98831285b3cddca5328c8013a94f22672a) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - enable WebMCP by default for local chromium versions newer than 157
+
+- [#3210](https://github.com/browserbase/stagehand/pull/3210) [`1c40ba7`](https://github.com/browserbase/stagehand/commit/1c40ba71763ddda759cf7f9c9fc582a360a33ef7) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Require client transport for Browserbase Model Gateway and cache requests.
+
+- [#3209](https://github.com/browserbase/stagehand/pull/3209) [`17de6ea`](https://github.com/browserbase/stagehand/commit/17de6eaac21dc2a35a083c9c6d9f17deb84ef6f3) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Route Browserbase Model Gateway and cache requests through the connected SDK.
+
+## Protocol 3.0.0
+
+### Major Changes
+
+- [#3210](https://github.com/browserbase/stagehand/pull/3210) [`1c40ba7`](https://github.com/browserbase/stagehand/commit/1c40ba71763ddda759cf7f9c9fc582a360a33ef7) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Require client transport for Browserbase Model Gateway and cache requests.
+
+### Minor Changes
+
+- [#3208](https://github.com/browserbase/stagehand/pull/3208) [`4a7c637`](https://github.com/browserbase/stagehand/commit/4a7c637dbb3de17be4e0b70987a69db8d3521b98) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Support routing Browserbase Model Gateway and cache requests through the connected SDK.
+
+## Eve Extension 0.2.2
+
+### Patch Changes
+
+- Updated dependencies [[`c6b6f27`](https://github.com/browserbase/stagehand/commit/c6b6f278c880d2f8b770ac0c1ecc63f248515968), [`10418f9`](https://github.com/browserbase/stagehand/commit/10418f98831285b3cddca5328c8013a94f22672a), [`1c40ba7`](https://github.com/browserbase/stagehand/commit/1c40ba71763ddda759cf7f9c9fc582a360a33ef7), [`17de6ea`](https://github.com/browserbase/stagehand/commit/17de6eaac21dc2a35a083c9c6d9f17deb84ef6f3)]:
+  - @browserbasehq/stagehand@4.2.2
+
 ## TypeScript SDK 4.2.1
 
 ### Patch Changes
